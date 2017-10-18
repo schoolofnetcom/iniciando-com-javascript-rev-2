@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var num1 = prompt('Number 1 :')
+		var num2 = prompt('Number 2:')
+		var op   = prompt('Operation: ')
+
+		num1 = parseFloat(num1)
+		num2 = parseFloat(num2)
+
+		if (op == '+') {
+			console.log(num1 + num2)
+		} else if (op == '*') {
+			console.log(num1 * num2)
+		} else if (op == '-') {
+			console.log(num1 - num2)
+		} else if (op == '/') {
+			console.log(num1 / num2)
+		} else {
+			console.error('Operation not found')
+		}
+
+		// if ((50 > 10) || (600 < 10)) {
+		// 	console.log('Is true')
+		// }
+	</script>
+</body>
+</html>
